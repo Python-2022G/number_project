@@ -8,7 +8,7 @@ class Number:
         '''
         this method returns the type of the number.
         '''
-        return type(self.number)
+        pass 
 
     def len(self) -> int:
         '''
@@ -19,7 +19,7 @@ class Number:
         Returns: 
             int: the length of the number.
         '''
-        return len(str(self.number))
+        pass 
 
     def is_positive(self) -> bool:
         '''
@@ -30,7 +30,7 @@ class Number:
         Returns:
             bool: true if number is positive otherwise false.
         '''
-        return self.number > 0
+        pass 
 
     def is_negative(self) -> bool:
         '''
@@ -41,7 +41,7 @@ class Number:
         Returns:
             bool: true if number is negative otherwise false.
         '''
-        return self.number < 0
+        pass 
 
     def is_zero(self) -> bool:
         '''
@@ -52,7 +52,7 @@ class Number:
         Returns:
             bool: true if number is zero otherwise false.
         '''
-        return self.number == 0
+        pass 
 
     def is_even(self) -> bool:
         '''
@@ -63,7 +63,7 @@ class Number:
         Returns:
             bool: true if number is even number otherwise false.
         '''
-        return self.number % 2 == 0
+        pass 
 
     def is_odd(self) -> bool:
         '''
@@ -74,7 +74,7 @@ class Number:
         Returns:
             bool: true if number is odd number otherwise false.
         '''
-        return self.number % 2 == 1
+        pass 
 
     def is_prime(self) -> bool:
         '''
@@ -84,14 +84,8 @@ class Number:
             No
         Returns:
             bool: true if number is prime otherwise false.
-        '''
-
-        if self.number == 2:
-            return True
-        for i in range(2, int(math.sqrt(self.number)) +1):
-            if i % i == 0:
-                return False 
-        return True
+        ''' 
+        pass 
     
     def int_to_str(self) -> str:
         '''
@@ -102,4 +96,4 @@ class Number:
         Returns:
             str: convert to string
         '''
-        return str(self.number)
+        pass 
