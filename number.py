@@ -97,6 +97,7 @@ class Number:
                 if (num % i) == 0:
                     flag = True
                     break
+         return flag
         
     
     def int_to_str(self) -> str:
