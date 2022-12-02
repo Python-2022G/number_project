@@ -20,7 +20,7 @@ class Number:
         Returns: 
             int: the length of the number.
         '''
-        pass
+        return len(int(self.number))
     def is_positive(self) -> bool:
         '''
         this mehtod returns true if number is positive otherwise false.
@@ -95,7 +95,14 @@ class Number:
         Returns:
             bool: true if number is prime otherwise false.
         ''' 
-        pass
+        num=self.number
+        flag = False
+        if num > 1:
+            for i in range(2, num):
+                if (num % i) == 0:
+                    flag = True
+                    break
+        return flag
         
     
     def int_to_str(self) -> str:
