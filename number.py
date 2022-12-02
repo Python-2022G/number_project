@@ -32,7 +32,7 @@ class Number:
             bool: true if number is positive otherwise false.
         '''
         s = str(self.number)
-        return s[0].isdigit():
+        return s[0].isdigit()
 
     def is_negative(self) -> bool:
         '''
@@ -44,7 +44,7 @@ class Number:
             bool: true if number is negative otherwise false.
         '''
         s = str(self.number)
-        return s[0].ispunctiation():
+        return s[0] == '-'
     def is_zero(self) -> bool:
         '''
         this mehtod returns true if number is zero otherwise false.
