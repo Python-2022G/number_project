@@ -19,8 +19,7 @@ class Number:
         Returns: 
             int: the length of the number.
         '''
-        pass 
-
+        pass
     def is_positive(self) -> bool:
         '''
         this mehtod returns true if number is positive otherwise false.
@@ -30,7 +29,9 @@ class Number:
         Returns:
             bool: true if number is positive otherwise false.
         '''
-        pass 
+        if self.number > 0:
+            return True
+        return False
 
     def is_negative(self) -> bool:
         '''
@@ -41,7 +42,9 @@ class Number:
         Returns:
             bool: true if number is negative otherwise false.
         '''
-        pass 
+        if self.number < 0:
+            return True
+        return False 
 
     def is_zero(self) -> bool:
         '''
@@ -52,7 +55,9 @@ class Number:
         Returns:
             bool: true if number is zero otherwise false.
         '''
-        pass 
+        if self.number == 0:
+            return True
+        return False 
 
     def is_even(self) -> bool:
         '''
@@ -98,5 +103,6 @@ class Number:
         '''
         pass 
 
-n = Number(3.5)
+n = Number(3)
+print(n.is_zero())
 n.data_type()
