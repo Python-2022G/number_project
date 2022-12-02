@@ -53,7 +53,7 @@ class Number:
         Returns:
             bool: true if number is zero otherwise false.
         '''
-        pass 
+        return self.number == 0:
 
     def is_even(self) -> bool:
         '''
