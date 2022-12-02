@@ -19,7 +19,7 @@ class Number:
         Returns: 
             int: the length of the number.
         '''
-        return len(str(self.number))
+        return len(str(int(self.number)))
 
     def is_positive(self) -> bool:
         '''
@@ -30,7 +30,8 @@ class Number:
         Returns:
             bool: true if number is positive otherwise false.
         '''
-        pass 
+        return self.number>0
+
 
     def is_negative(self) -> bool:
         '''
@@ -52,7 +53,7 @@ class Number:
         Returns:
             bool: true if number is zero otherwise false.
         '''
-        pass 
+        return self.number==0 
 
     def is_even(self) -> bool:
         '''
@@ -63,7 +64,7 @@ class Number:
         Returns:
             bool: true if number is even number otherwise false.
         '''
-        pass 
+        return self.number%2==0
 
     def is_odd(self) -> bool:
         '''
@@ -74,7 +75,7 @@ class Number:
         Returns:
             bool: true if number is odd number otherwise false.
         '''
-        pass 
+        return self.number%2!=0
 
     def is_prime(self) -> bool:
         '''
@@ -85,7 +86,7 @@ class Number:
         Returns:
             bool: true if number is prime otherwise false.
         ''' 
-        pass 
+        
     
     def int_to_str(self) -> str:
         '''
