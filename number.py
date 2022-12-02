@@ -98,5 +98,5 @@ class Number:
             str: convert to string
         '''
         pass 
-n = Number(3)
+n = Number(3.5)
 n.data_type()
