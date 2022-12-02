@@ -90,7 +90,13 @@ class Number:
         Returns:
             bool: true if number is prime otherwise false.
         ''' 
-        pass
+        num=self.number
+        flag = False
+        if num > 1:
+            for i in range(2, num):
+                if (num % i) == 0:
+                    flag = True
+                    break
         
     
     def int_to_str(self) -> str:
