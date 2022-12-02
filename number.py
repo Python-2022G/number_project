@@ -31,7 +31,7 @@ class Number:
         Returns:
             bool: true if number is positive otherwise false.
         '''
-        pass 
+        return str(self.number[0]).isdigit():
 
     def is_negative(self) -> bool:
         '''
