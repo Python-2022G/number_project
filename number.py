@@ -69,7 +69,9 @@ class Number:
         Returns:
             bool: true if number is even number otherwise false.
         '''
-        pass 
+        if self.number % 2 == 0:
+            return True
+        return False  
 
     def is_odd(self) -> bool:
         '''
@@ -80,7 +82,9 @@ class Number:
         Returns:
             bool: true if number is odd number otherwise false.
         '''
-        pass 
+        if self.number % 2 != 0:
+            return True
+        return False  
 
     def is_prime(self) -> bool:
         '''
@@ -91,7 +95,8 @@ class Number:
         Returns:
             bool: true if number is prime otherwise false.
         ''' 
-        pass 
+        pass
+        
     
     def int_to_str(self) -> str:
         '''
@@ -102,6 +107,6 @@ class Number:
         Returns:
             str: convert to string
         '''
-        pass 
+        return  str(self.number)
 n = Number(3)
-print(n.is_zero())
+print(n.is_prime())
