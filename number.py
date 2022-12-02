@@ -8,7 +8,8 @@ class Number:
         '''
         this method returns the type of the number.
         '''
-        print(type(self.number))
+        return type(self.number)
+
 
     def len(self) -> int:
         '''
@@ -19,7 +20,9 @@ class Number:
         Returns: 
             int: the length of the number.
         '''
-        pass
+        return len(str(int(self.number)))
+
+
     def is_positive(self) -> bool:
         '''
         this mehtod returns true if number is positive otherwise false.
@@ -29,9 +32,8 @@ class Number:
         Returns:
             bool: true if number is positive otherwise false.
         '''
-        if self.number > 0:
-            return True
-        return False
+        return self.number>0
+
 
     def is_negative(self) -> bool:
         '''
@@ -42,9 +44,8 @@ class Number:
         Returns:
             bool: true if number is negative otherwise false.
         '''
-        if self.number < 0:
-            return True
-        return False 
+        return self.number<0
+
 
     def is_zero(self) -> bool:
         '''
@@ -55,9 +56,8 @@ class Number:
         Returns:
             bool: true if number is zero otherwise false.
         '''
-        if self.number == 0:
-            return True
-        return False 
+        return self.number==0 
+
 
     def is_even(self) -> bool:
         '''
@@ -68,7 +68,7 @@ class Number:
         Returns:
             bool: true if number is even number otherwise false.
         '''
-        pass 
+        return self.number%2==0
 
     def is_odd(self) -> bool:
         '''
@@ -79,7 +79,7 @@ class Number:
         Returns:
             bool: true if number is odd number otherwise false.
         '''
-        pass 
+        return self.number%2!=0
 
     def is_prime(self) -> bool:
         '''
@@ -90,7 +90,8 @@ class Number:
         Returns:
             bool: true if number is prime otherwise false.
         ''' 
-        pass 
+        pass
+        
     
     def int_to_str(self) -> str:
         '''
@@ -101,8 +102,5 @@ class Number:
         Returns:
             str: convert to string
         '''
-        pass 
+        return str(self.number)
 
-n = Number(3)
-print(n.is_zero())
-n.data_type()
