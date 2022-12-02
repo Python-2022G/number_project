@@ -56,7 +56,9 @@ class Number:
         Returns:
             bool: true if number is zero otherwise false.
         '''
-        pass 
+        if self.number == 0:
+            return True
+        return False 
 
     def is_even(self) -> bool:
         '''
@@ -102,4 +104,4 @@ class Number:
         '''
         pass 
 n = Number(3)
-n.len()
+print(n.is_zero())
