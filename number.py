@@ -42,7 +42,7 @@ class Number:
         Returns:
             bool: true if number is negative otherwise false.
         '''
-        pass 
+        return self.number<0
 
     def is_zero(self) -> bool:
         '''
@@ -86,6 +86,7 @@ class Number:
         Returns:
             bool: true if number is prime otherwise false.
         ''' 
+        n=self.number
         
     
     def int_to_str(self) -> str:
@@ -97,4 +98,4 @@ class Number:
         Returns:
             str: convert to string
         '''
-        pass 
+        return str(self.number)
