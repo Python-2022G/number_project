@@ -95,14 +95,10 @@ class Number:
         Returns:
             bool: true if number is prime otherwise false.
         ''' 
-        num=self.number
-        flag = False
-        if num > 1:
-            for i in range(2, num):
-                if (num % i) == 0:
-                    flag = True
-                    break
-        return flag
+        for i in range(2,math.sqrt(self.number)+1):
+            if self.number %i:
+                return False
+        return True
         
     
     def int_to_str(self) -> str:
