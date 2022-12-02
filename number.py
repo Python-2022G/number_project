@@ -8,7 +8,7 @@ class Number:
         '''
         this method returns the type of the number.
         '''
-        return print(type(self.num))
+        print(type(self.num))
 
     def len(self) -> int:
         '''
