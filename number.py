@@ -42,7 +42,7 @@ class Number:
         Returns:
             bool: true if number is negative otherwise false.
         '''
-        pass 
+        return str(self.number[0]).ispunctiation(): 
 
     def is_zero(self) -> bool:
         '''
