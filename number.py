@@ -10,6 +10,7 @@ class Number:
         '''
         return type(self.number)
 
+
     def len(self) -> int:
         '''
         this method returns the length of the number. 
@@ -20,6 +21,7 @@ class Number:
             int: the length of the number.
         '''
         return len(str(int(self.number)))
+
 
     def is_positive(self) -> bool:
         '''
@@ -44,6 +46,7 @@ class Number:
         '''
         return self.number<0
 
+
     def is_zero(self) -> bool:
         '''
         this mehtod returns true if number is zero otherwise false.
@@ -54,6 +57,7 @@ class Number:
             bool: true if number is zero otherwise false.
         '''
         return self.number==0 
+
 
     def is_even(self) -> bool:
         '''
@@ -86,7 +90,7 @@ class Number:
         Returns:
             bool: true if number is prime otherwise false.
         ''' 
-        n=self.number
+        pass
         
     
     def int_to_str(self) -> str:
@@ -99,3 +103,4 @@ class Number:
             str: convert to string
         '''
         return str(self.number)
+
