@@ -20,8 +20,8 @@ class Number:
         Returns: 
             int: the length of the number.
         '''
-        pass 
-
+        lenth = [self.number]
+        print(len(lenth))
     def is_positive(self) -> bool:
         '''
         this mehtod returns true if number is positive otherwise false.
@@ -98,5 +98,5 @@ class Number:
             str: convert to string
         '''
         pass 
-n = Number(3.5)
-n.data_type()
+n = Number(3)
+n.len()
