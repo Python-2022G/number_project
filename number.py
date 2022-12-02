@@ -8,7 +8,7 @@ class Number:
         '''
         this method returns the type of the number.
         '''
-        pass 
+        return type(self.number)
 
     def len(self) -> int:
         '''
@@ -19,7 +19,7 @@ class Number:
         Returns: 
             int: the length of the number.
         '''
-        pass 
+        return len(str(self.number))
 
     def is_positive(self) -> bool:
         '''
