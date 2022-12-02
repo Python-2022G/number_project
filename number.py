@@ -8,7 +8,8 @@ class Number:
         '''
         this method returns the type of the number.
         '''
-        pass 
+        print(type(self.number))
+ 
 
     def len(self) -> int:
         '''
@@ -97,3 +98,5 @@ class Number:
             str: convert to string
         '''
         pass 
+n = Number(3)
+n.data_type()
