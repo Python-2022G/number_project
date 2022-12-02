@@ -65,7 +65,7 @@ class Number:
         Returns:
             bool: true if number is even number otherwise false.
         '''
-        pass 
+        return self.number // 2 == 0
 
     def is_odd(self) -> bool:
         '''
@@ -76,7 +76,8 @@ class Number:
         Returns:
             bool: true if number is odd number otherwise false.
         '''
-        pass 
+        return self.number // 2 == 1
+ 
 
     def is_prime(self) -> bool:
         '''
