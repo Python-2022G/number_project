@@ -9,7 +9,6 @@ class Number:
         this method returns the type of the number.
         '''
         print(type(self.number))
-        
 
     def len(self) -> int:
         '''
@@ -99,6 +98,5 @@ class Number:
         '''
         pass 
 
-
-n = Number(51541.3)
+n = Number(3.5)
 n.data_type()
